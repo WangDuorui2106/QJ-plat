@@ -15,7 +15,9 @@ A platform consist of few-shot classification and object detection
 An NVIDIA GPU and CUDA 9.0 or higher. 
 
 ### Open-world Object Detection Environment
-
+* Linux or macOS with Python ≥ 3.6
+* PyTorch ≥ 1.4 and torchvision that matches the PyTorch installation. You can install them together at pytorch.org to make sure of this
+* OpenCV is optional and needed by demo and visualization
 
 
 ### Open-vocabulary Object Detection Environment
@@ -97,3 +99,10 @@ $ python3 WRN_eval.py --test_model your_path --dataset mini --num_ways C --num_s
 $ python3 eval.py --test_model your_path --dataset mini --num_ways C --num_shots K 
 
 ```
+
+
+
+
+### OWOD
+
+ORE data split and trained models from [here] (https://drive.google.com/drive/folders/1S5L-YmIiFMAKTs6nHMorB0Osz5iWI31k?usp=sharing)
